@@ -4,7 +4,7 @@ SOURCE CODE:main_s.c
 LIBRARY USE:libjpeg
 RUNNING:test_s
 
-////////////////////////////////////////////////////////////////////////////
+
 0.api:
 int jpg2bmp(char *jpgname,char *bmpname)
 
@@ -15,7 +15,6 @@ bmpname:name of output bmp file.eg:*bmpname="lena.bmp"
 output parameters:
 return Error Code(see more in No.6)
 
-////////////////////////////////////////////////////////////////////////////
 
 1.function:decode jpeg image(lena.jpg),translate and output lena.bmp.
 2.input:lena.jpg
